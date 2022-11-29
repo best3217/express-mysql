@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test project in upwork",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "ns",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "db-migrate-mysql": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "i": "^0.3.7",
+    "jsonschema": "^1.4.1",
+    "mysql": "^2.18.1",
+    "npm": "^9.1.2",
+    "random-string-alphanumeric-generator": "^0.12.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
